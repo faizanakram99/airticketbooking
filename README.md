@@ -8,5 +8,5 @@ Air Ticket Booking Site Design - Fully Responsive from scratch (using media quer
 <li>Images used in the site are labelled with "resuse with modification". </li>
 </em></ul>
 
-<strong>v1</strong> . The site is not complete yet, the responsive part is incomplete and I will complete it tomorrow.
+<strong>Update 1:</strong> Optimised for tabs!
 
