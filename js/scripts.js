@@ -11,11 +11,14 @@ $(document).ready(function(){
        }
    });
 
+    $('.mobile-nav').click(function(){
+       $('.main-nav ul').slideToggle();
+    });
     $("#journey-date").datepicker();
     $("#return-date").datepicker();
     $("#journey-date-intr").datepicker();
     $("#return-date-intr").datepicker();
-
+    $(".ui-datepicker").css('font-size', 11);
 
 
 
