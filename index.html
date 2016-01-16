@@ -99,7 +99,7 @@
                             </ul>
 
                         <div id="flights-1">
-                            <h3>Domestic Flight Booking</h3>
+                            <h3>Domestic Flights</h3>
                             <div>
                         <label for="source">Source</label>
                         <input type="text" id="source">
@@ -115,44 +115,51 @@
                         <input type="text" id="journey-date">
                             </div>
 
-                            <div class="rb">
+                            <div class="rb-main">
                         <label>Return Journey</label>
+                                <div class="rb">
                         <input type="radio" name="return" value="yes">Yes
                         <input type="radio" name="return" value="no">No
                                 </div>
+                            </div>
 
                         <div class="boolReturn">
                         <label for="return-date" >Return Date</label>
                         <input type="text" id="return-date">
                             </div>
+                            <div>
                         <input type="button" id="button" name="submit" value="Submit">
                             </div>
-                    <div id="flights-2">
-                        <h3>International Flight Booking</h3>
-                        <div>
-                        <label for="source-intr">Source</label>
-                        <input type="text" id="source-intr">
-                        </div>
-
-                        <div>
-                        <label for="destination-intr">Destination</label>
-                        <input type="text" id="destination-intr">
-                        </div>
-                        <div>
-                        <label for="journey-date-intr">Journey Date</label>
-                        <input type="text" id="journey-date-intr">
-                        </div>
-                        <div>
-                        <label>Return Journey</label>
-                        <input type="radio" name="return-intr" value="yes">Yes
-                        <input type="radio" name="return-intr" value="no">No
-                        </div>
-                        <div class="boolReturn">
-                        <label for="return-date-intr" >Return Date</label>
-                        <input type="text" id="return-date-intr">
-                        </div>
-                        <input type="button" id="button-intr" name="submit" value="Submit">
                             </div>
+                        <div id="flights-2">
+                            <h3>International Flights</h3>
+                            <div>
+                            <label for="source-intr">Source</label>
+                            <input type="text" id="source-intr">
+                            </div>
+
+                            <div>
+                            <label for="destination-intr">Destination</label>
+                            <input type="text" id="destination-intr">
+                            </div>
+                            <div>
+                            <label for="journey-date-intr">Journey Date</label>
+                            <input type="text" id="journey-date-intr">
+                            </div>
+                            <div class="rb-main">
+                            <label>Return Journey</label>
+                                <div class="rb">
+                            <input type="radio" name="return-intr" value="yes">Yes
+                            <input type="radio" name="return-intr" value="no">No
+                            </div></div>
+                            <div class="boolReturn">
+                            <label for="return-date-intr" >Return Date</label>
+                            <input type="text" id="return-date-intr">
+                            </div>
+                            <div class="btn">
+                            <input type="button" id="button-intr" name="submit" value="Submit">
+                              </div>
+                                </div>
                         </div>
                     </form>
                 </div>
