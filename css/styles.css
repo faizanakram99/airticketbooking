@@ -136,9 +136,6 @@ div[data-u="caption"]{
     left:25%;
 }
 
-.booking-box input[type='text']{
-        width:100%;
-    }
 
 .main-content h3{
     text-align: center;
@@ -339,6 +336,9 @@ footer > div:first-child{
         margin-top: 25px;
     }
 
+    .booking-box input[type='text']{
+        width:80%;
+    }
 
 
     #flights li {
